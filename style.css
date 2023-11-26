@@ -403,3 +403,169 @@ background: #FFF;
     right: -67px;
     bottom: -510px;
 }
+#about {
+    padding: 280px 0 80px 0;
+}
+.about hr {
+    width: 250px;
+height: 3px;
+background: #F00;
+border: none;
+}
+.about h3 {
+    color: #FFF;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 2.6px;
+margin: 4px 0 90px 0 ;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-card {
+    width: 1058px;
+height: 384px;
+border-radius: 10px;
+border: 9px solid #F00;
+background: #FFF;
+}
+
+.card-text1 {
+    display: flex;
+    align-items: center;
+    padding: 35px 0 0 60px;
+}
+.card-text1 span {
+color: rgba(26, 24, 24, 0.329);
+font-size: 20px;
+}
+.card-text1 h2 span {
+    color: red;
+    font-size: 25px;
+    font-weight: 200px;
+}
+.card-text1 h2 {
+    margin-left: 15px;
+    color: #000;
+    font-size: 25px;
+    font-weight: 200px;
+}
+.card-text2 {
+    display: flex;
+    align-items: center;
+padding: 30px 0 0 60px;
+}
+.card-text2 span {
+    color: yellow;
+    font-size: 20px;
+}
+.card-text2 h4 {
+    margin: 0 20px ;
+color: rgba(26, 24, 24, 0.329);
+
+}
+.card-text2  h4 span {
+color: rgba(26, 24, 24, 0.329);
+font-size: 17px;
+margin-left: 20px;
+}
+.card-text3 {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 0 15px 60px;
+}
+.card-text3 h5 {
+    font-size: 16px;
+    color:black ;
+}
+.card-text3 p {
+    padding-left: 10px;
+color: #000000de;
+}
+.card-text4 {
+    padding-left: 60px ;
+}
+.card-text4 h4 {
+    color: black;
+    font-size: 16px;
+}
+.card-text4 p {
+    color: #000000de;
+    padding: 10px 0 ;
+}
+.card-text5 {
+    padding: 20px 0 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-text5 h6 {
+    font-size:16px ;
+color: rgba(26, 24, 24, 0.329);
+}
+.about-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+}
+.about-icon  h5{
+color: rgba(26, 24, 24, 0.329);
+font-size: 16px;
+}
+.about-icon span {
+color: rgba(26, 24, 24, 0.329);
+padding: 0 8px;
+}
+.about-icon h6 {
+    font-size: 20px;
+    color: green;
+    padding-right: 6px;
+}
+.about-icon h4 {
+    font-size: 20px;
+color: red;
+}
+.icon-left {
+    width: 40px;
+height: 40px;
+background: #FF0000;
+border-radius: 50px;
+}
+.icon-left span {
+    color: #FFF;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.icon-rigth span {
+    color: #FFF;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.icon-rigth  {
+background: #FF0000;
+width: 40px;
+height: 40px;
+border-radius: 50px;
+}
+.about-card {
+    position: relative;
+}
+.icon-left {
+    position: absolute;
+    left: -20px;
+    bottom: 200px;
+}
+.icon-rigth {
+    position: absolute;
+    right: -20px;
+    bottom: 200px;
+}
