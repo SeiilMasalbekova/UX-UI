@@ -569,3 +569,149 @@ border-radius: 50px;
     right: -20px;
     bottom: 200px;
 }
+.many-cards {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.about button {
+    color: #000;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.91px;
+border-radius: 27px;
+background: #FFF;
+width: 176px;
+height: 44px;
+margin: 55px 0;
+}
+#footer {
+    padding: 100px  0 80px 0;
+}
+.footer hr {
+    width: 537px;
+height: 3px;
+background: #F00;
+border: none;
+}
+.footer h1 {
+    color: #FFF;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 2.6px;
+margin: 4px 0 52px 0;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-name h5 {
+    color: #FFF;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+margin: 0 0 9px 23px;
+}
+.footer-name input {
+    width: 370px;
+height: 75px;
+border-radius: 7px;
+border: 2px solid #F00;
+background: #FFF;
+color: #B7B1B1;
+font-size: 18px;
+font-weight: 300;
+letter-spacing: 1.17px;
+padding-left: 23px;
+}
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 860px;
+}
+.footer-text h4 {
+    color: #FFF;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+margin: 0 0 8px 21px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.footer-text input {
+    width: 862px;
+height: 100px;
+border-radius: 7px;
+border: 2px solid #F00;
+background: #FFF;
+color: #B7B1B1;
+font-size: 18px;
+font-weight: 300;
+letter-spacing: 1.17px;
+padding: 0 0 102px 21px;
+}
+.footer-text {
+    margin: 55px 0;
+}
+.footer-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 250px;
+}
+.footer-icon h4 {
+    color: #FFF;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 1.56px;
+}
+.footer-sms {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.footer-sms div {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.17px;
+    margin: 0 7px;
+}
+.footer-sms div span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;    
+}
+.footer-sms div span:active {
+    color: #F00;
+    width: 16px;
+    height: 16px;
+}
+.footer-sms h3 {
+    color: #FFF;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.17px;
+}
+.footer button {
+    color: #000;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 1.17px;
+width: 188px;
+height: 54px;
+border-radius: 7px;
+background: #FFF;
+margin: 18px 700px 26px 0;
+}
+.footer {
+    position: relative;
+}
+.footer-img {
+    position: absolute;
+    bottom: -630px;
+}
