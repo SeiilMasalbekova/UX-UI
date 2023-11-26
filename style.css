@@ -625,6 +625,7 @@ font-size: 18px;
 font-weight: 300;
 letter-spacing: 1.17px;
 padding-left: 23px;
+outline: none;
 }
 .footer-info {
     display: flex;
@@ -653,6 +654,7 @@ font-size: 18px;
 font-weight: 300;
 letter-spacing: 1.17px;
 padding: 0 0 102px 21px;
+outline: none;
 }
 .footer-text {
     margin: 55px 0;
@@ -715,3 +717,20 @@ margin: 18px 700px 26px 0;
     position: absolute;
     bottom: -630px;
 }
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 1058px;
+    height: 384px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
